@@ -17,6 +17,7 @@ def add_secrets():
     repo_id = f"{hf_username}/ai-helpdesk-api"
 
     secrets = {
+        "GEMINI_API_KEY": "YOUR_KEY_HERE",
         "VITE_GEMINI_API_KEY_1": "YOUR_KEY_HERE",
         "VITE_GEMINI_API_KEY_2": "YOUR_KEY_HERE",
         "VITE_GEMINI_API_KEY_3": "YOUR_KEY_HERE",

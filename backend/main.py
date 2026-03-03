@@ -174,8 +174,20 @@ app.add_middleware(
 
 
 # ---------------------------------------------------------------------------
-# Health check
+# Root & Health check
 # ---------------------------------------------------------------------------
+@app.get("/")
+async def root():
+    return {
+        "message": "AI Helpdesk API is running!",
+        "version": "1.0.0",
+        "endpoints": {
+            "health": "/health",
+            "analyze": "/ai/analyze_ticket"
+        }
+    }
+
+
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
     return HealthResponse(
