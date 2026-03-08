@@ -9,7 +9,8 @@ import {
     ShieldCheck,
     Settings,
     LogOut,
-    Activity
+    Activity,
+    Bug
 } from 'lucide-react';
 import useAuthStore from '../../store/authStore';
 
@@ -24,6 +25,7 @@ const AdminSidebar = ({ isMobile, onClose }) => {
     const navItems = [
         { label: 'Dashboard', path: '/admin/dashboard', icon: LayoutDashboard },
         { label: 'Tickets', path: '/admin/tickets', icon: Inbox },
+        { label: 'Bug Reports', path: '/admin/bug-reports', icon: Bug },
         { label: 'Users', path: '/admin/users', icon: Users },
         { label: 'Analytics', path: '/admin/analytics', icon: BarChart3 },
         { label: 'AI Benchmarking', path: '/admin/benchmarking', icon: Activity },
