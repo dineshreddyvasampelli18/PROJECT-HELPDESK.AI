@@ -54,6 +54,16 @@ import AdminAnalytics from "./admin/pages/AdminAnalytics";
 import AdminProfile from "./admin/pages/AdminProfile";
 import AdminSettings from "./admin/pages/AdminSettings";
 import MasterBugReports from "./master-admin/pages/MasterBugReports";
+
+// Feature Pages
+import AutoCategorizationFeature from "./pages/features/AutoCategorizationFeature";
+import PriorityDetectionFeature from "./pages/features/PriorityDetectionFeature";
+import SmartResolutionFeature from "./pages/features/SmartResolutionFeature";
+
+// Legal Pages
+import TermsOfService from "./pages/legal/TermsOfService";
+import PrivacyPolicy from "./pages/legal/PrivacyPolicy";
+import Security from "./pages/legal/Security";
 import AdminProtectedRoute from "./components/shared/AdminProtectedRoute";
 import MasterAdminProtectedRoute from "./components/shared/MasterAdminProtectedRoute";
 import ProtectedRoute from "./components/shared/ProtectedRoute";
@@ -200,6 +210,16 @@ function App() {
         <Route path="/admin-lobby" element={<AdminLobby />} />
         <Route path="/user-lobby" element={<UserLobby />} />
         <Route path="/not-approved" element={<NotApproved />} />
+
+        {/* Feature Pages */}
+        <Route path="/features/categorization" element={<AutoCategorizationFeature />} />
+        <Route path="/features/priority" element={<PriorityDetectionFeature />} />
+        <Route path="/features/resolution" element={<SmartResolutionFeature />} />
+
+        {/* Legal Pages */}
+        <Route path="/terms" element={<TermsOfService />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/security" element={<Security />} />
 
         {/* ── Master Admin Portal (hidden, standalone) ── */}
         <Route path="/master-admin-login" element={<MasterAdminLogin />} />
