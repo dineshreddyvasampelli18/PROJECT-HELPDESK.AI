@@ -5,9 +5,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Vercel Deployment](https://img.shields.io/badge/Production-Live-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://helpdeskaiv1.vercel.app/)
-[![AI Backend](https://img.shields.io/badge/AI_Engine-Hugging_Face-FF8C00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/ritesh19180/ai-helpdesk-api)
+[![Interactive Slides](https://img.shields.io/badge/Presentation-Interactive-10B981?style=for-the-badge&logo=googleslides&logoColor=white)](https://ritesh-1918.github.io/HELPDESK.AI/docs/HELPDESK.AI%20Presentation.html)
 
---
+<br/>
+
+---
 
 ### ⚡ Eliminating the Manual Triage Bottleneck.
 *Helpdesk.ai uses deep-learning neural networks and 4-layer enterprise architecture to categorize, prioritize, and resolve IT issues in milliseconds.*
